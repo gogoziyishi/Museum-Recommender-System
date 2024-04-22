@@ -1,8 +1,9 @@
 # Museum Recommender System
 
-Welcome to the Museum Recommender System project! Below, you'll find a brief video introduction to our project. Click on the image below to watch the video on YouTube and discover the key features of our system:
+Welcome to the Museum Recommender System project! Click on the image below to watch the video on YouTube and discover the key features of our system:
 
-[![Introduction Video](https://img.youtube.com/vi/QIAyQzMu3x0/0.jpg)](https://www.youtube.com/watch?v=QIAyQzMu3x0 "Watch Introduction Video")
+[![Museum Recommender System Demo](https://raw.githubusercontent.com/gogoziyishi/Museum-Recommender-System/main/youtube_image.png)](https://www.youtube.com/watch?v=QIAyQzMu3x0 "Watch Introduction Video")
+
 
 ## Project Overview
 This Museum Recommender System is designed to enhance the cultural and educational experience for visitors by providing personalized museum recommendations. Developed as part of the Text Analytics Project Spring 2024, it leverages data from TripAdvisor reviews to identify popular museums and analyze public sentiment. Our system offers tailored suggestions to tourists, helps tourism boards in adjusting marketing strategies, aids travel agencies in creating fulfilling tour packages, and enables museum managers to refine services based on feedback.
