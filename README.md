@@ -1,7 +1,6 @@
 # Museum Recommender System
 
-Welcome to the Museum Recommender System project! Below, you'll find a brief video that introduces our project and highlights its key features:
-
+Welcome to the Museum Recommender System project! Below, you'll find a brief video introduction to our project. Click on the image below to watch the video on YouTube and discover the key features of our system:
 
 [![Introduction Video](https://img.youtube.com/vi/QIAyQzMu3x0/0.jpg)](https://www.youtube.com/watch?v=QIAyQzMu3x0 "Watch Introduction Video")
 
