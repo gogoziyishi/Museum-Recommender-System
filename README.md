@@ -45,11 +45,18 @@ Our models are evaluated based on accuracy scores and silhouette coefficients, w
 Our sincere thanks to everyone who contributed to the success of this project, especially for the insight and support provided by our academic mentors and peer collaborators.
 
 ## Contact
+
 For any queries regarding this project, please reach out to:
-- Ziyi Shi - [ziyishi@fordham.edu]
-- Yvonne Wu - [swu180@fordham.edu]
-- Wenbo Nie - [wnie5@fordham.edu]
+
+- Ziyi Shi - [Email](mailto:ziyishi@fordham.edu)
+- Yvonne Wu - [Email](mailto:swu180@fordham.edu)
+- Wenbo Nie - [Email](mailto:wnie5@fordham.edu)
+
+## Acknowledgements
+
+This project was completed as part of the Text Analytics course at Fordham University, Spring 2024.
 
 ---
 
-Project completed as part of the Text Analytics course, Spring 2024.
+© 2024 Fordham University. All rights reserved.
+
