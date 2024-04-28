@@ -1,5 +1,8 @@
 # Museum Recommender System
 
+👉 [Try the live app here!](https://museum-recommender-system-2024.streamlit.app/)
+
+
 Welcome to the Museum Recommender System project! Click on the image below to watch the video on YouTube and discover the key features of our system:
 
 [![Museum Recommender System Demo](https://raw.githubusercontent.com/gogoziyishi/Museum-Recommender-System/main/youtube_image.png)](https://youtu.be/lvWCA3LXktQ?si=hgPdO_cCTunxOPG0 "Click to Watch Introduction Video")
