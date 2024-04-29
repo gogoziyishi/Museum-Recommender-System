@@ -1,6 +1,6 @@
 # Museum Recommender System
 
-👉 [Try the live app here!](https://museum-recommender-system-2024.streamlit.app/)
+👉 [Experience the interactive app here!](https://museum-recommender-system-2024.streamlit.app/)
 
 
 Welcome to the Museum Recommender System project! Click on the image below to watch the video on YouTube and discover the key features of our system:
@@ -16,11 +16,8 @@ This Museum Recommender System is designed to enhance the cultural and education
 - Yvonne Wu
 - Wenbo Nie
 
-## Data Collection
-Data has been collected using `bs4` for web crawling and APIs to fetch museum images. The dataset covers 1006 museums across the United States and includes more than 11,800 reviews.
-
-## Data Description
-The data encompasses various aspects such as general museum information, visitor categories, review ratings, tag clouds from reviews, and detailed review content. It is stored in multiple formats including JSON, CSV, and Excel sheets, ensuring comprehensive coverage and ease of access.
+## Data Collection and Description
+Data has been collected using `bs4` for web crawling and APIs to fetch museum images. The dataset covers 1006 museums across the United States and includes more than 11,800 reviews. The data encompasses various aspects such as general museum information, visitor categories, review ratings, tag clouds from reviews, and detailed review content. It is stored in multiple formats including JSON, CSV, and Excel sheets, ensuring comprehensive coverage and ease of access.
 
 ## Data Preprocessing
 Data preprocessing involved merging tables with `Excel VLOOKUP`, cleaning data challenges, and handling various file types to prepare for the analysis phase.
@@ -33,28 +30,31 @@ Our analysis pipeline includes:
 4. Employing cosine similarity distance from `sklearn` to identify similarities between museums.
 
 ## Recommender System
-The core of our project, the recommender function, predicts similar museums based on user preferences. The data is managed using the `pickle` library and integrated into a Streamlit application for a user-friendly interface.
+The core of our project, the recommender function, predicts similar museums based on user preferences. The data is managed using the `pickle` library and integrated into a Streamlit application for a user-friendly interface. The code snippet provided illustrates the creation of state-specific similarity matrices, which are vital to our recommender engine. The repository contains a similarity_matrices directory with these matrices, allowing for tailored recommendations across different states.
 
 ## Streamlit Web Application
-Our system is operationalized through a `Streamlit` web application, allowing for interactive user engagement and personalized recommendations.
+Our system is operationalized through a `Streamlit` web application, allowing for interactive user engagement and personalized recommendations. Our Streamlit app provides a seamless UI for users to select a state, explore museum options, and receive personalized recommendations. It features a dynamic 'Museum Explorer Map' and detailed museum profiles, including rankings and descriptions.
 
 
 ## Evaluation
 Our models are evaluated based on accuracy scores and silhouette coefficients, with manual sampling as a comparison benchmark.
 
 ## Repository Contents
-- `Museums Recommendation System.ipynb`: Jupyter notebook with the complete analysis and system model.
-- `README.md`: This file, describing the project.
-- `Tags.csv`: Dataset containing tags related to each museum.
-- `app.py`: The Streamlit application for deploying the recommender system.
-- `museums.pkl`, `museums_dict.pkl`, `similarity.pkl`: Serialized files containing processed museum data and similarity metrics for the recommender system.
+- similarity_matrices: Contains the state-specific similarity matrices.
+- Fordham-University-Logo-1907.png: The university's logo.
+- Museums Recommendation System.ipynb: The full analysis notebook.
+- README.md: Project documentation.
+- Tags.csv: Dataset with museum-related tags.
+- app.py: The Streamlit app script.
+- museums.pkl, museums_dict.pkl, similarity.pkl, states.pkl: Serialized files for the recommender system.
+- youtube_image.png: Thumbnail for the YouTube demo.
 
 ## Acknowledgements
 Our sincere thanks to everyone who contributed to the success of this project, especially for the insight and support provided by our academic mentors and peer collaborators.
 
 ## Contact
 
-For any queries regarding this project, please reach out to:
+Reach out to us with any questions:
 
 - Ziyi Shi - [Email](mailto:ziyishi@fordham.edu)
 - Yvonne Wu - [Email](mailto:swu180@fordham.edu)
